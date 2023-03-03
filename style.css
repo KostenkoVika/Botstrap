@@ -1,0 +1,35 @@
+.container-home {
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.container-card {
+  max-width: 1168px;
+  margin-inline: auto;
+}
+
+.footer {
+    background-color: grey;
+        padding: 20px 80px;
+}
+
+.icon::after {
+    content: url(../img/free-icon-butterfly-350250.svg);
+    display: inline-block;
+    min-width: 50px;
+    
+    padding-left: 30px;
+}
+
+.img-1 {
+  max-height: 400px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.icon-2::after {
+  content: url(../img/heart.svg);
+    display: inline-block;
+    min-width: 50px;
+    
+    padding-left: 30px;
+}
